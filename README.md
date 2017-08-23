@@ -55,7 +55,7 @@
 
 ## Part 1.2 - Create class `LicenseCreator`
 * Create a class `LicenseCreator` in the `domain.anthropoid.license` sub-package
-* `LicenseCreator` should define a `createRandomLicense` method which returns a `License` object created by the `build` method of a `LicenseBuilder`.
+* `LicenseCreator` should define a `createMockLicense` method which returns a `License` object created by the `build` method of a `LicenseBuilder`.
 	* **Note:** Typically, it is bad practice to create methods which have aspects of randomness, as it creates unpredictability when testing for specific outcomes. However, here the values of each field are unimportant. Rather, the focus is on the object relationship and orchestration.
 
 
