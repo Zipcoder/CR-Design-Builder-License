@@ -3,7 +3,7 @@
 	* to demonstrate [Creational Methods](https://www.industriallogic.com/xp/refactoring/constructorCreation.html)
 	* to demonstrate [Builder Design Pattern](http://www.javaworld.com/article/2074938/core-java/too-many-parameters-in-java-methods-part-3-builder-pattern.html)
 * **Objective**
-	* to implement a `LicenseCreatorController` which uses and `LicenseCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `LicenseBuilder` to generate `License` objects
+	* to implement a `LicenseCreatorController` which uses a `LicenseCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `LicenseBuilder` to generate `License` objects
 	* to implement a `LicenseController` which is a _data store_ for `License` objects.
 	* to implement a `PersonCreatorController` which uses and `PersonCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `PersonBuilder` to generate `Person` objects
 	* to implement a `PersonController` which is a _data store_ for `Person` objects.
