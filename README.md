@@ -97,8 +97,8 @@
 * Add a constructor to `LicenseBuilder` which takes an argument of a `Person` object and sets the value of each of the `LicenseBuilder` fields to the respective `Person` object field values.
 
 ## Part 2.2 - Modify class `LicenseCreator`
-* Create a method named `createPersonLicense` which has a parameter of `Person` and returns a `License` object whose instance variables mock the respective argument.
-* Create a method named `createPartiallyMockedLicense` which has a parameter of `Person` and returns a `License` object whose instance variables mock the respective argument and the remaining `null` variables are assigned to random values.
+* Create a method named `createPersonLicense` which has a parameter of `Person` and returns a `License` object whose instance variables mirror the respective argument.
+* Create a method named `createPartiallyMockedLicense` which has a parameter of `Person` and returns a `License` object whose instance variables mirror the respective argument and the remaining `null` variables are assigned to random values.
 
 
 ## Part 2.3 - Create class `LicenseBuilderTest`
