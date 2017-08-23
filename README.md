@@ -5,7 +5,7 @@
 * **Objective**
 	* to implement a `LicenseCreatorController` which uses a `LicenseCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `LicenseBuilder` to generate `License` objects
 	* to implement a `LicenseController` which is a _data store_ for `License` objects.
-	* to implement a `PersonCreatorController` which uses and `PersonCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `PersonBuilder` to generate `Person` objects
+	* to implement a `PersonCreatorController` which uses a `PersonCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `PersonBuilder` to generate `Person` objects
 	* to implement a `PersonController` which is a _data store_ for `Person` objects.
 
 
