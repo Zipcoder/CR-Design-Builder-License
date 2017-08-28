@@ -133,3 +133,5 @@
 	* **Note:** Try integrating `createPartiallyMockedLicense` and `createMockPerson`.
 * Ensure that `LicenseCreatorTest` still has 100% pass rate.
 
+# Part 4 - Abstract the Creator classes
+* Using the [abstract factory pattern lab](https://github.com/Zipcoder/TC-Spring-VehicleFactory-Application) as an example, abstract each of the creator classes.
