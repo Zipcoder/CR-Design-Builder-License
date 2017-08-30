@@ -7,7 +7,7 @@
 	* to implement a `LicenseController` which is a _data store_ for `License` objects.
 	* to implement a `PersonCreatorController` which uses a `PersonCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `PersonBuilder` to generate `Person` objects
 	* to implement a `PersonController` which is a _data store_ for `Person` objects.
-* **Design Description** - Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+* **Design Description** - Separate the consutrction of a complex object from its representation so that the same construction process can create different representations.
 	* Description Source - _Design Patterns: Gang of Four_
 
 # Domain Implementation
