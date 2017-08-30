@@ -1,14 +1,14 @@
 # License Builder
 * **Purpose**
-	* to demonstrate [Creational Methods](https://www.industriallogic.com/xp/refactoring/constructorCreation.html)
 	* to demonstrate [Builder Design Pattern](http://www.javaworld.com/article/2074938/core-java/too-many-parameters-in-java-methods-part-3-builder-pattern.html)
+* **Design Description** - Separate the consutrction of a complex object from its representation so that the same construction process can create different representations.
+	* Description Source - _Design Patterns: Gang of Four_
+
 * **Objective**
 	* to implement a `LicenseCreatorController` which uses a `LicenseCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `LicenseBuilder` to generate `License` objects
 	* to implement a `LicenseController` which is a _data store_ for `License` objects.
 	* to implement a `PersonCreatorController` which uses a `PersonCreator` and a [composite](https://en.wikipedia.org/wiki/Composition_over_inheritance) `PersonBuilder` to generate `Person` objects
 	* to implement a `PersonController` which is a _data store_ for `Person` objects.
-* **Design Description** - Separate the consutrction of a complex object from its representation so that the same construction process can create different representations.
-	* Description Source - _Design Patterns: Gang of Four_
 
 # Domain Implementation
 
