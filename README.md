@@ -41,7 +41,6 @@
 	* `License` has a `expirationDate` instance variable of type `Date`
 	* `License` has a `issueDate` instance variable of type `Date`
 	* `License` has a `licenseClass` instance variable of type `Character`
-	* `License` has a `licenseClass` instance variable of type `String`
 * `License` should have a non-default constructor which takes an argument of each of the field-types and sets them respectively.
 * Feel free to add any additional fields and continue with this lab accordingly.
 
