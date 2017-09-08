@@ -110,7 +110,7 @@
 
 
 ## Part 2.4 - Modify class `LicenseCreatorTest`
-* Create a method named `testCreatePersonLicense` which ensures the `LicenseFactory` creates a `License` with fields whose values mirror the respective `Person` object.
+* Create a method named `testCreatePersonLicense` which ensures the `LicenseCreator` creates a `License` with fields whose values mirror the respective `Person` object.
 	* **Note:** Be sure to assert that fields proprietary to the `License` object are `null` in the newly constructed `License`. That is: Be sure that the only fields set by the `LicenseBuilder` are those fields which are contained in the respective `Person` object.
 
 
