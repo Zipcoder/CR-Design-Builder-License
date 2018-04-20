@@ -7,48 +7,39 @@ import javax.persistence.Id;
 import java.util.Date;
 
 @Entity
-public class License {
+public class Person {
 
     @Id
     @GeneratedValue
-    @Column(name = "LICENSE_ID")
+    @Column(name = "PERSON_ID")
     private Long id;
 
-    @Column(name = "LICENSE_FIRSTNAME")
+    @Column(name = "PERSON_FIRSTNAME")
     private String firstName;
 
-    @Column(name = "LICENSE_LASTNAME")
+    @Column(name = "PERSON_LASTNAME")
     private String lastName;
 
-    @Column(name = "LICENSE_MIDDLENAME")
+    @Column(name = "PERSON_MIDDLENAME")
     private String middleName;
 
-    @Column(name = "LICENSE_STREETADDRESS")
+    @Column(name = "PERSON_STREETADDRESS")
     private String streetAddress;
 
-    @Column(name = "LICENSE_CITY")
+    @Column(name = "PERSON_CITY")
     private String city;
 
-    @Column(name = "LICENSE_STATE")
+    @Column(name = "PERSON_STATE")
     private String state;
 
-    @Column(name = "LICENSE_ISFEMALE")
+    @Column(name = "PERSON_ISFEMALE")
     private boolean isFemale;
 
-    @Column(name = "LICENSE_BIRTHDATE")
+    @Column(name = "PERSON_BIRTHDATE")
     private Date birthDate;
 
-    @Column(name = "LICENSE_EXPIRATIONDATE")
-    private Date expirationDate;
-
-    @Column(name = "LICENSE_ISSUEDATE")
-    private Date issueDate;
-
-    @Column(name = "LICENSE_LICENSECLASS")
-    private Character licenseClass;
-
-    public License(String firstName, String lastName, String middleName, String streetAddress, String city, String state,
-                   boolean isFemale, Date birthDate, Date expirationDate, Date issueDate, Character licenseClass) {
+    public Person(String firstName, String lastName, String middleName, String streetAddress,
+                  String city, String state, boolean isFemale, Date birthDate) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleName = middleName;
@@ -57,9 +48,17 @@ public class License {
         this.state = state;
         this.isFemale = isFemale;
         this.birthDate = birthDate;
-        this.expirationDate = expirationDate;
-        this.issueDate = issueDate;
-        this.licenseClass = licenseClass;
+    }
+
+    public Person() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getFirstName() {
@@ -124,29 +123,5 @@ public class License {
 
     public void setBirthDate(Date birthDate) {
         this.birthDate = birthDate;
-    }
-
-    public Date getExpirationDate() {
-        return expirationDate;
-    }
-
-    public void setExpirationDate(Date expirationDate) {
-        this.expirationDate = expirationDate;
-    }
-
-    public Date getIssueDate() {
-        return issueDate;
-    }
-
-    public void setIssueDate(Date issueDate) {
-        this.issueDate = issueDate;
-    }
-
-    public Character getLicenseClass() {
-        return licenseClass;
-    }
-
-    public void setLicenseClass(Character licenseClass) {
-        this.licenseClass = licenseClass;
     }
 }
